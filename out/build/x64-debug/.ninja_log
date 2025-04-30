@@ -1,0 +1,26 @@
+# ninja log v5
+17	653	7676550964939203	external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	c34e8614aead8fe8
+29	660	7676550964956841	external/glfw/src/CMakeFiles/glfw.dir/window.c.obj	7874ceac9facecab
+669	997	7676550968515086	external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj	1b61820cd219959e
+32	665	7676550964956841	external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	9751639e3a10efe6
+10	678	7676550965069123	external/glfw/src/CMakeFiles/glfw.dir/init.c.obj	698920c7c0cca50b
+354	455	7676621408161493	bin/SolarSystem.exe	ea59ada21a244f4c
+661	999	7676550968545751	external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj	aec01b3cf55d0bd1
+13	674	7676550965074696	external/glfw/src/CMakeFiles/glfw.dir/input.c.obj	bdf92e4d3712d28a
+25	669	7676550964939203	external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	553f34ef95edc558
+2	892	7676550967437457	CMakeFiles/SolarSystem.dir/external/glad/src/glad.c.obj	a968c24915f5ce55
+8	688	7676550965172671	external/glfw/src/CMakeFiles/glfw.dir/context.c.obj	bdc27ebf6fafbe59
+21	682	7676550964980332	external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj	336eeb8deea0ddfd
+683	990	7676550968412349	external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	b288381802bdc86d
+656	954	7676550968078824	external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	ac096cac301a5f87
+665	989	7676550968412349	external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj	b47cfb1e62265ea4
+674	1000	7676550968548730	external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj	90d0be0f16ceb731
+21	353	7676621407365434	CMakeFiles/SolarSystem.dir/src/main.cpp.obj	81f53c2135cd3bde
+688	1053	7676550969086530	external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	cc35dbbe77eacac6
+678	1055	7676550969116520	external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj	711fcb2cd379d065
+31	305	7676552475358650	external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	59f0e7e68a83dafc
+22	272	7676552475020947	external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	cf502c081d7fb48d
+25	284	7676552475160071	external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	7f70080204dea7d8
+28	285	7676552475161460	external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	8c2eb3cd5dacf078
+34	293	7676552475242841	external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	129eb939e7cc9cfd
+305	361	7676552475900135	external/glfw/src/glfw3.lib	f5ea071b0bd5f6aa
