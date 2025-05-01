@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "E:/Solar System/Solar System/out/build/x64-debug/external/glfw/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"E:/Solar System/Solar System/out/build/x64-debug/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "G:/Solar System/Solar-System/out/build/x64-debug/external/glfw/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"G:/Solar System/Solar-System/out/build/x64-debug/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "E:/Solar System/Solar System/out/build/x64-debug/external/glfw/install_manifest.txt" files)
+file(READ "G:/Solar System/Solar-System/out/build/x64-debug/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

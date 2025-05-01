@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/lib.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Solar System/Solar System/out/build/x64-debug"
+			"value" : "g:/Solar System/Solar-System/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "28"
+			"value" : "30"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -87,7 +87,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "0"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug/CMakeFiles/pkgRedirects"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Solar System/Solar System"
+			"value" : "G:/Solar System/Solar-System"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -779,7 +779,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "E:/Solar System/Solar System/out/install/x64-debug"
+			"value" : "G:/Solar System/Solar-System/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx64/x64/link.exe"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0.9.9"
+			"value" : "3.4.0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -1051,7 +1051,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "9"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_PATCH",
@@ -1075,7 +1075,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "9"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28"
+			"value" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1455,7 +1455,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug/_deps"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1567,7 +1567,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug/external/glfw"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug/external/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/external/glfw"
+			"value" : "G:/Solar System/Solar-System/external/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -1743,7 +1743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug"
 		},
 		{
 			"name" : "SolarSystem_IS_TOP_LEVEL",
@@ -1767,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System"
+			"value" : "G:/Solar System/Solar-System"
 		},
 		{
 			"name" : "USE_MSVC_RUNTIME_LIBRARY_DLL",
@@ -1791,7 +1791,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Solar System/Solar System/out/install/x64-debug"
+			"value" : "G:/Solar System/Solar-System/out/install/x64-debug"
 		},
 		{
 			"name" : "glm_BINARY_DIR",
@@ -1803,7 +1803,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-build"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-build"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -1827,7 +1827,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-src"
+			"value" : "G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-src"
 		}
 	],
 	"kind" : "cache",

@@ -3,13 +3,13 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake
-source_dir=E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-src
-work_dir=E:/Solar System/Solar System/out/build/x64-debug/_deps
+command=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake
+source_dir=G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-src
+work_dir=G:/Solar System/Solar-System/out/build/x64-debug/_deps
 repository=https://github.com/g-truc/glm.git
 remote=origin
 init_submodules=TRUE
 recurse_submodules=--recursive
 submodules=
 CMP0097=NEW
-
+      

@@ -7,6 +7,9 @@ project(SolarSystem)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
+set(ASSETS_DIR "${CMAKE_SOURCE_DIR}/assets")
+set(BUILD_ASSETS_DIR "${CMAKE_BINARY_DIR}/bin/assets")
+
 # Include GLFW manually (from external folder)
 include_directories(
     external/glad/include
@@ -32,8 +35,12 @@ file(GLOB SOURCES
     external/glad/src/glad.c
 )
 
+# Copy shaders from source to build folder
+file(COPY ${ASSETS_DIR}/shaders DESTINATION ${BUILD_ASSETS_DIR})
+
+
 # Build executable
-add_executable(SolarSystem ${SOURCES})
+add_executable(SolarSystem ${SOURCES} "src/Shader.h" "src/Shader.cpp" "world/Sphere/Sphere.cpp")
 
 # Link libraries
 find_package(OpenGL REQUIRED)

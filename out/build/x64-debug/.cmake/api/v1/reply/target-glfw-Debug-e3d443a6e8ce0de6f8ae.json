@@ -81,7 +81,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 11,
+				"line" : 14,
 				"parent" : 7
 			},
 			{
@@ -146,23 +146,23 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "E:/Solar System/Solar System/external/glad/include"
+					"path" : "G:/Solar System/Solar-System/external/glad/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/Solar System/Solar System/external/glfw/include"
+					"path" : "G:/Solar System/Solar-System/external/glfw/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "E:/Solar System/Solar System/src"
+					"path" : "G:/Solar System/Solar-System/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "E:/Solar System/Solar System/external/glfw/src"
+					"path" : "G:/Solar System/Solar-System/external/glfw/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "E:/Solar System/Solar System/out/build/x64-debug/external/glfw/src"
+					"path" : "G:/Solar System/Solar-System/out/build/x64-debug/external/glfw/src"
 				}
 			],
 			"language" : "C",
@@ -216,7 +216,7 @@
 		],
 		"prefix" : 
 		{
-			"path" : "E:/Solar System/Solar System/out/install/x64-debug"
+			"path" : "G:/Solar System/Solar-System/out/install/x64-debug"
 		}
 	},
 	"name" : "glfw",

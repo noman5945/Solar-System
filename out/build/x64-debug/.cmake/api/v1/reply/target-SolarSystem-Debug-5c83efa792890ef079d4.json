@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 36,
+				"line" : 43,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 40,
+				"line" : 47,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 11,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -59,19 +59,19 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/external/glad/include"
+					"path" : "G:/Solar System/Solar-System/external/glad/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/external/glfw/include"
+					"path" : "G:/Solar System/Solar-System/external/glfw/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/src"
+					"path" : "G:/Solar System/Solar-System/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-src/glm/.."
+					"path" : "G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-src/glm/.."
 				}
 			],
 			"language" : "C",
@@ -91,19 +91,19 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/external/glad/include"
+					"path" : "G:/Solar System/Solar-System/external/glad/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/external/glfw/include"
+					"path" : "G:/Solar System/Solar-System/external/glfw/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "E:/Solar System/Solar System/src"
+					"path" : "G:/Solar System/Solar-System/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "E:/Solar System/Solar System/out/build/x64-debug/_deps/glm-src/glm/.."
+					"path" : "G:/Solar System/Solar-System/out/build/x64-debug/_deps/glm-src/glm/.."
 				}
 			],
 			"language" : "CXX",
@@ -117,7 +117,9 @@
 			},
 			"sourceIndexes" : 
 			[
-				1
+				1,
+				2,
+				4
 			]
 		}
 	],
@@ -172,7 +174,16 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3
 			]
 		}
 	],
@@ -187,7 +198,24 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 1,
+			"path" : "src/Shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
 			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "world/Sphere/Sphere.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

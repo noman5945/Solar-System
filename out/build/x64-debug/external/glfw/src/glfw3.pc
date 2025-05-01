@@ -1,7 +1,7 @@
-prefix=E:/Solar System/Solar System/out/install/x64-debug
+prefix=G:/Solar System/Solar-System/out/install/x64-debug
 exec_prefix=${prefix}
-includedir=E:/Solar System/Solar System/out/install/x64-debug/include
-libdir=E:/Solar System/Solar System/out/install/x64-debug/lib
+includedir=G:/Solar System/Solar-System/out/install/x64-debug/include
+libdir=G:/Solar System/Solar-System/out/install/x64-debug/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input
