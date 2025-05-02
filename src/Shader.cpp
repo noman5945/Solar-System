@@ -58,6 +58,11 @@ void Shader::use() {
     glUseProgram(ID);
 }
 
+// Set uniform matrix (model, view, projection)
+void Shader::setMat4(const std::string& name, const glm::mat4& mat) const {
+    glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE, glm::value_ptr(mat));
+}
+
 void Shader::checkCompileErrors(unsigned int shader, std::string type) {
     int success;
     char infoLog[512];

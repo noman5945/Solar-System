@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_SolarSystem: phony || cmake_object_order
 
 build CMakeFiles\SolarSystem.dir\external\glad\src\glad.c.obj: C_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\external\glad\src\glad.c || cmake_object_order_depends_target_SolarSystem
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
+  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\universe" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
   OBJECT_DIR = CMakeFiles\SolarSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\external\glad\src
   TARGET_COMPILE_PDB = CMakeFiles\SolarSystem.dir\
@@ -59,7 +59,7 @@ build CMakeFiles\SolarSystem.dir\external\glad\src\glad.c.obj: C_COMPILER__Solar
 
 build CMakeFiles\SolarSystem.dir\src\Shader.cpp.obj: CXX_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\src\Shader.cpp || cmake_object_order_depends_target_SolarSystem
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
+  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\universe" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
   OBJECT_DIR = CMakeFiles\SolarSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\SolarSystem.dir\
@@ -67,17 +67,25 @@ build CMakeFiles\SolarSystem.dir\src\Shader.cpp.obj: CXX_COMPILER__SolarSystem_u
 
 build CMakeFiles\SolarSystem.dir\src\main.cpp.obj: CXX_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\src\main.cpp || cmake_object_order_depends_target_SolarSystem
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
+  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\universe" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
   OBJECT_DIR = CMakeFiles\SolarSystem.dir
   OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\SolarSystem.dir\
   TARGET_PDB = bin\SolarSystem.pdb
 
-build CMakeFiles\SolarSystem.dir\world\Sphere\Sphere.cpp.obj: CXX_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\world\Sphere\Sphere.cpp || cmake_object_order_depends_target_SolarSystem
+build CMakeFiles\SolarSystem.dir\universe\Sphere\Sphere.cpp.obj: CXX_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\universe\Sphere\Sphere.cpp || cmake_object_order_depends_target_SolarSystem
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
-  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
+  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\universe" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
   OBJECT_DIR = CMakeFiles\SolarSystem.dir
-  OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\world\Sphere
+  OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\universe\Sphere
+  TARGET_COMPILE_PDB = CMakeFiles\SolarSystem.dir\
+  TARGET_PDB = bin\SolarSystem.pdb
+
+build CMakeFiles\SolarSystem.dir\universe\CelestalBody\CelestalBody.cpp.obj: CXX_COMPILER__SolarSystem_unscanned_Debug G$:\Solar$ System\Solar-System\universe\CelestalBody\CelestalBody.cpp || cmake_object_order_depends_target_SolarSystem
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17
+  INCLUDES = -I"G:\Solar System\Solar-System\external\glad\include" -I"G:\Solar System\Solar-System\external\glfw\include" -I"G:\Solar System\Solar-System\src" -I"G:\Solar System\Solar-System\universe" -I"G:\Solar System\Solar-System\out\build\x64-debug\_deps\glm-src\glm\.."
+  OBJECT_DIR = CMakeFiles\SolarSystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\SolarSystem.dir\universe\CelestalBody
   TARGET_COMPILE_PDB = CMakeFiles\SolarSystem.dir\
   TARGET_PDB = bin\SolarSystem.pdb
 
@@ -89,7 +97,7 @@ build CMakeFiles\SolarSystem.dir\world\Sphere\Sphere.cpp.obj: CXX_COMPILER__Sola
 #############################################
 # Link the executable bin\SolarSystem.exe
 
-build bin\SolarSystem.exe: CXX_EXECUTABLE_LINKER__SolarSystem_Debug CMakeFiles\SolarSystem.dir\external\glad\src\glad.c.obj CMakeFiles\SolarSystem.dir\src\Shader.cpp.obj CMakeFiles\SolarSystem.dir\src\main.cpp.obj CMakeFiles\SolarSystem.dir\world\Sphere\Sphere.cpp.obj | external\glfw\src\glfw3.lib || external\glfw\src\glfw3.lib
+build bin\SolarSystem.exe: CXX_EXECUTABLE_LINKER__SolarSystem_Debug CMakeFiles\SolarSystem.dir\external\glad\src\glad.c.obj CMakeFiles\SolarSystem.dir\src\Shader.cpp.obj CMakeFiles\SolarSystem.dir\src\main.cpp.obj CMakeFiles\SolarSystem.dir\universe\Sphere\Sphere.cpp.obj CMakeFiles\SolarSystem.dir\universe\CelestalBody\CelestalBody.cpp.obj | external\glfw\src\glfw3.lib || external\glfw\src\glfw3.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = external\glfw\src\glfw3.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

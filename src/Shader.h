@@ -2,6 +2,7 @@
 #define SHADER_H
 
 #include <glad/glad.h>
+#include <glm/gtc/type_ptr.hpp> 
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -16,8 +17,10 @@ public:
 
     // Use the current shader program
     void use();
+    void setMat4(const std::string& name, const glm::mat4& mat) const;
 
 private:
+    
     void checkCompileErrors(unsigned int shader, std::string type);
 };
 

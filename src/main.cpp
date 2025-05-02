@@ -7,10 +7,11 @@
 #include <filesystem>
 #include <string>
 #include "Shader.h"
+#include "Sphere/Sphere.h"
 
 using namespace std;
 
-float vertices[] = {
+float triangle[] = {
     -0.5f, -0.5f, 0.0f,
      0.5f, -0.5f, 0.0f,
      0.0f,  0.5f, 0.0f
@@ -33,6 +34,8 @@ int main()
         return -1;
     }
 
+    
+
     // OpenGL version and profile
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -54,6 +57,9 @@ int main()
     }
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, frameBuffer_size_callback);
+    gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+
+    glEnable(GL_DEPTH_TEST);
 
     //  Initialize GLAD
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
@@ -68,28 +74,50 @@ int main()
     cout << fullFragmentPath << endl;
     Shader shader("assets/shaders/basic.vs", "assets/shaders/basic.fs");
 
-    // Generate and bind VAO, VBO for the triangle
-    GLuint VAO, VBO;
-    glGenVertexArrays(1, &VAO);
-    glGenBuffers(1, &VBO);
+    //Test Triangle
+    /*GLuint testVAO, testVBO;
+    glGenVertexArrays(1, &testVAO);
+    glGenBuffers(1, &testVBO);
 
-    glBindVertexArray(VAO);
-
-    glBindBuffer(GL_ARRAY_BUFFER, VBO);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-
+    glBindVertexArray(testVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, testVBO);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(triangle), triangle, GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
+    glBindVertexArray(0);*/
 
+
+    Sphere planet(1.0f);
+    // Generate transformation matrices
+    //glm::mat4 model = glm::mat4(1.0f);  // Identity matrix
+    //glm::mat4 view = glm::lookAt(glm::vec3(0.0f, 0.0f, 3.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));  // Camera position
+    //glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1280.0f / 720.0f, 0.1f, 100.0f);  // Perspective projection
+
+    //shader.use();
+    //shader.setMat4("model", model);
+    //shader.setMat4("view", view);
+    //shader.setMat4("projection", projection);
     // Load OpenGL functions via GLAD
     while (!glfwWindowShouldClose(window))
     {
-        glClear(GL_COLOR_BUFFER_BIT);
+        //glClearColor(0.1f, 0.1f, 0.1f, 1.0f); // dark gray instead of black
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        
+        glm::mat4 model = glm::mat4(1.0f);
+        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -5.0f));
+        glm::mat4 projection = glm::perspective(glm::radians(45.0f), 1280.0f / 720.0f, 0.1f, 100.0f);
 
         shader.use();
-        glBindVertexArray(VAO);
+        glUniformMatrix4fv(glGetUniformLocation(shader.ID, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        glUniformMatrix4fv(glGetUniformLocation(shader.ID, "view"), 1, GL_FALSE, glm::value_ptr(view));
+        glUniformMatrix4fv(glGetUniformLocation(shader.ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
+        
+        //Test Triangle
+        /*glBindVertexArray(testVAO);
         glDrawArrays(GL_TRIANGLES, 0, 3);
-
+        glBindVertexArray(0);
+        */
+        planet.draw();
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

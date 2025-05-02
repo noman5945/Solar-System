@@ -40,7 +40,9 @@ file(COPY ${ASSETS_DIR}/shaders DESTINATION ${BUILD_ASSETS_DIR})
 
 
 # Build executable
-add_executable(SolarSystem ${SOURCES} "src/Shader.h" "src/Shader.cpp" "world/Sphere/Sphere.cpp")
+add_executable(SolarSystem ${SOURCES} "src/Shader.h" "src/Shader.cpp" "universe/Sphere/Sphere.cpp" "universe/CelestalBody/CelestalBody.h" "universe/CelestalBody/CelestalBody.cpp" "universe/Sphere/Sphere.h")
+target_include_directories(SolarSystem PRIVATE ${CMAKE_SOURCE_DIR}/universe)
+
 
 # Link libraries
 find_package(OpenGL REQUIRED)
