@@ -117,6 +117,7 @@ int main()
         glDrawArrays(GL_TRIANGLES, 0, 3);
         glBindVertexArray(0);
         */
+        //planet.draw_v_2();
         planet.draw();
         glfwSwapBuffers(window);
         glfwPollEvents();
